@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+flask = "*"
+streamlit = "*"
+jupyter = "*"
+skimpy = "*"
+seaborn = "*"
+matplotlib = "*"
+patsy = "*"
+statsmodels = "*"
+scikit-learn = "*"
+xgboost = "*"
+gunicorn = "*"
+waitress = "*"
+
+[dev-packages]
+black = {extras = ["jupyter"], version = "*"}
+awsebcli = "*"
